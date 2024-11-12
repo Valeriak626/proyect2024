@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi recetario</title>
+    <link rel="stylesheet" href="styletragos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                <img src="img/logo.jpeg" alt="Logo Pagina" class="logo">
+                </a>
+            </div>
+            <ul class="links">
+                <li><a href="recetasnuevas.html">Recetas nuevas</a></li>
+                <li><a href="clasico.html">Barra Clasica</a></li>
+                <li><a href="premium.html">Barra Premium</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <Section>
+
+        </Section>
+        <section class="nuevareceta" id="nuevareceta">
+            <h2>Nueva receta</h2>
+            <form action="" method="post" enctype="multipart/form-data">
+                <label for="nombre">Nombre</label><br>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="ingredientes">Ingredientes:</label><br>
+                <textarea name="ingredientes" id="ingredientes" cols="50" rows="10"></textarea><br><br>
+                <label for="imagentrago"></label>
+                <input type="file" name="imagentrago" id="imagentrago"><br><br>
+                <input class="boton" type="submit" value="Guardar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-cont"></div>
+        <p class="copyright">© 2024 Mi Recetario</p>
+    </footer>
+
+    
+</body>
+</html>
